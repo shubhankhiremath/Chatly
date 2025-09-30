@@ -1,0 +1,27 @@
+{
+    "name": "framer-chatly-reddit-like-feed",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Reddit-like feed for Framer using Notion as backend storage and Firebase Auth",
+    "scripts": {
+      "dev": "vercel dev",
+      "build": "echo \"Serverless functions are deployed by the platform\"",
+      "start": "vercel dev",
+      "lint": "echo \"No linter configured\""
+    },
+    "dependencies": {
+      "@notionhq/client": "^2.2.15",
+      "cookie": "^0.6.0",
+      "dayjs": "^1.11.13",
+      "firebase": "^10.13.2",
+      "firebase-admin": "^12.6.0",
+      "micro": "^10.0.1",
+      "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+      "vercel": "^39.1.2"
+    },
+    "engines": {
+      "node": ">=18"
+    }
+  }
